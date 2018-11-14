@@ -32,6 +32,7 @@ you =Person("Ethan", "Reed")
 me.speak()
 you.speak()
 '''
+'''
 exam_one = int(simpledialog.askstring("Input", "Input exam grade one: ", parent=tk.Tk().withdraw()))
 
 exam_two = int(simpledialog.askstring("Input", "Input exam grade two: ", parent=tk.Tk().withdraw()))
@@ -66,10 +67,43 @@ for grade in grades:
     print("Grade: " + letter_grade)
 
 if letter-grade is "F":
-    print "Student is failing."
+    print ("Student is failing.")
 else:
-    print "Student is passing."
+    print ("Student is passing.")
 
+'''
+'''
+class Person():
+   def __init__(self, name, favorite_food,age):
+       self.name = name
+       self.fav_food = favorite_food
+       self.age = age
+
+
+   def define_color(self, color="Red"):
+       self.color = color
+
+   def print_info(self):
+       print("My name is " + self.name + ", I'm " + str(self.age) + " years old.")
+       print("My favorite food is " + self.fav_food + " and my favorite color is " + self.color)
+
+
+a = Person("Britney", "Pizza", 16)
+a.define_color("Black")
+a.print_info()
+
+a = Person("Jake", 15)
+a=define_age(15)
+b.print_info()
+'''
+class Bear():
+  def __init__(self, name):
+    print(“a new bear created. Its name is: “ + name)
+  
+  def say_hi(self):
+    print(“Hi! I’m a bear. My name is “ + name)
+my_bear = Bear(“Danny”)
+print(my_bear.say_hi())
 
 
 
