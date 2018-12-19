@@ -1,49 +1,48 @@
-#print("sumayah")
-##for name in my_name:
-	#print(name)
-#for i in range (100):
-	#print("sumayah")
+import turtle
 
-#number1=5
-#print(number1)
-#number2=2.5
-#print(number2)
-#numbers=[3,2,1]
-#for i in numbers:
+print("sumayah "*3)
+print("sumayah "*100)
+number1= 4
+print(number1)
+number2 = number1/2
+print(number2)
+ls = [3,4,5]
 
 
-		#print(i)
-		#print(i*2)
+turtle.pensize(25)
+turtle.color("blue")
+turtle.penup()
+turtle.goto(-110, -25)
+turtle.pendown()
+turtle.circle(100)
 
-import 
-turtle.pemsize(25)
+turtle.pensize(25)
 turtle.color("black")
 turtle.penup()
-turtle.goto(-110,-25)
-tuurtle.pendown()
+turtle.goto(135, -25)
+turtle.pendown()
 turtle.circle(100)
 
-turtle.pemsize(25)
+turtle.pensize(25)
 turtle.color("red")
 turtle.penup()
-turtle.goto(310,-25)
-tuurtle.pendown()
+turtle.goto(375, -25)
+turtle.pendown()
 turtle.circle(100)
 
-
-turtle.pemsize(25)
+turtle.pensize(25)
+turtle.pensize(25)
 turtle.color("yellow")
 turtle.penup()
-turtle.goto(-55,-75)
-tuurtle.pendown()
+turtle.goto(15, -130)
+turtle.pendown()
 turtle.circle(100)
 
-turtle.pemsize(25)
+turtle.pensize(25)
 turtle.color("green")
 turtle.penup()
-turtle.goto(55,-75)
-tuurtle.pendown()
+turtle.goto(250, -130)
+turtle.pendown()
 turtle.circle(100)
 
 turtle.done()
-

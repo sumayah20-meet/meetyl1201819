@@ -16,4 +16,6 @@ def fun2(x):
 		if i < 5:
 			print(i)
 
-fun(list1) 
+fun(list2)
+x=fun(list2) 
+print(x)
