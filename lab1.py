@@ -1,4 +1,4 @@
-import turtle
+ import turtle
 
 print("sumayah "*3)
 print("sumayah "*100)
